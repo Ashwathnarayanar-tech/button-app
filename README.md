@@ -16,15 +16,20 @@ This app can be used as customaizable button in your store theme.
 
 ## step1:
 Add `echidna.button@0.0.1` in your store theme dependencies as shown below.
-```json "dependencies": {
+
+```json 
+"dependencies": {
  "echidna.button": "0.x"
-  },```
+  },
+  ```
   
  ## step2:
  Add the `"button"` block where you want to use it.
+ 
  example: in home.jsonc
+ 
  ```json
-   {
+ {
    "store.home": {
       "blocks": [
                 "button"
