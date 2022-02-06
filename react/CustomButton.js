@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'vtex.styleguide'
+import  Button  from '@vtex/styleguide/lib/Button'
 // import styles from './ViewDetailsButton.css'
 import { useCssHandles } from 'vtex.css-handles'
 
